@@ -12,11 +12,11 @@ KOLOM = 5
 def main():
     print("Isi array A:")
     # menampilkan elemen array dua dimensi
-    i = 10
+    i = 0;
     while i < BARIS:
         j = 0
         while j < KOLOM:
-            print("%d" % A[i][j], end='')
+            print("%d " % A[i][j], end='')
             j += 1
         i += 1
         print() # ganti baris
