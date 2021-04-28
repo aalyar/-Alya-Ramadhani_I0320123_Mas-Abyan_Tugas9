@@ -6,7 +6,5 @@ C = array.array('i')
 C.fromlist(li)
 type(C)
 
-<type 'array.array'>
-
 for nilai in C:
-    print("%d" % nilai, end='')
+    print("%d " % nilai, end='')
